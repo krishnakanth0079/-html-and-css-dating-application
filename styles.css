@@ -1,0 +1,29 @@
+body{
+    /* background-color: aqua; */
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/04/21/34/beach-1799006_960_720.jpg");
+
+}
+h2{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+    color:#ffffff;
+    margin:10px 300px 5px 300px;
+    height:40px;;
+}
+
+.Container{
+    color: #ffffff;
+    margin:10px 300px 10px 300px;
+    padding: 10px auto;
+    border: 2px solid wheat;
+    
+    background-image: url("https://getwallpapers.com/wallpaper/full/a/8/d/822083-moonlight-night-wallpaper-2500x1799-pc.jpg");
+    
+   
+}
+
+.application{
+    margin-left: 200px;
+    font-family: Trirong;
+}
+/* <link rel="stylesheet" href="styles.css"> */

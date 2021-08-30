@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>my html</title>
+    <style>
+        body{
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/04/21/34/beach-1799006_960_720.jpg");
+        }
+        h2{
+            background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+            text-align: center;
+            color:#ffffff;
+            margin:10px 300px 5px 300px;
+            height:40px;;
+        }
+
+        .Container{
+            color: #ffffff;
+            margin:10px 300px 10px 300px;
+            padding: 10px auto;
+            border: 2px solid wheat;
+            
+            background-image: url("https://getwallpapers.com/wallpaper/full/a/8/d/822083-moonlight-night-wallpaper-2500x1799-pc.jpg");
+            
+        
+        }
+
+        .application{
+            margin-left: 200px;
+            font-family: Trirong;
+        }
+</style>
+</head>
+
+<body>
+    
+   
+    <h2>Dating application</h2>
+    <div class="Container"> 
+        <div Class="application">
+            <div id="head">Presonal Details</div>
+            <form>
+                <label for="name">FullName:</label>
+                <input type="text" id="name" name="name" placeholder="Entername">
+                <br><br>
+
+                <label for="email">Email id:</label>
+                <input type="text" id="email" name="email" placeholder="Enter email">
+                <br><br>
+                
+                <label for="phone">PhoneNo:</label>
+                <input type="number" id="phone" name="phone" placeholder="Enter Phonenumber">
+                <br><br>
+                
+                <label for ="gender">Select gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br><br>
+
+                <label for ="Date">Date of proposed outing:</label><br>
+                <input type="date" id="date" value="date"/>
+                <br><br>
+
+                <h4>Check all that apply to you:</h4>
+
+                <label> I have tattoos OR piercing </label><br>
+                <select id="yy" Name="tattoos OR piercing">
+                    <option value="tattoos">tattoos</option>
+                    <option value="piercing">piercing</option>    
+                </select>
+                <br><br>
+
+                <label>I am more than 2 years older than your daughter</label><br>
+                <input type="radio" id="yy" Name="older"/>
+                <label for ="yy">Yes:</label>
+                <input type="radio" id="nn" Name="older"/>
+                <label for ="nn">No:</label>
+                <br/><br>
+ 
+                <label for ="Vehicle">I have a vehicle of:</label><br>
+                <input type="radio" id="" Name="vehicle"/>
+                <label for ="ferrari">Ferrari:</label>
+                <input type="radio" id="apanel van" Name="vehicle"/>
+                <label for ="Apanel van">Apanel van:</label>
+                <br><br>
+
+                <div>My working status is:
+                <select id="work" Name="work">
+                    <option value="full time">Full time</option>
+                    <option value="part time">Part time</option>
+                    <option value="seasonal">Seasonal</option>    
+                </select>
+                </div>
+                <br>
+
+                <label for="status">My parrent status:</label><br>
+                <input type="radio" id="rich" Name="status"/>
+                <label for ="rich">Rich:</label>
+                <input type="radio" id="poor" Name="status"/>
+                <label for ="poor">poor:</label>
+                <br><br>
+
+                <label for="place"> Dating palce?</label><br>
+                <input type="radio" id="place" Name= "place"/>
+                <label for ="place">Public place:</label>
+                <input type="radio" id="place"Name="place"/>
+                <label for ="nn">Private place:</label>
+                <br><br>
+
+                <div>Education qualification 
+                <select id="education" Name="Education qualification">
+                    <option value="B.tech">B.tech</option>
+                    <option value="B.com">B.com</option>
+                    <option value="B.sc">B.sc</option>
+                    <option value="M.tech">M.tech</option>
+                    <option value="M.com">M.com</option>
+                    <option value="M.sc">M.sc</option>
+                </select>
+                </div><br>
+
+                <label>Why did you want to date my daughter</label><br>
+                <input type="text" id="yy" name="Why did you want to date my daughter" size=50>
+                <br><br>
+                <form action="Bank statement">
+                    <lable for="myfile"> Bank statement</lable></br>
+                    <input type="file" id="my file"name="myfile"></form>
+                    <br><br>
+                    <input type="submit" value="submit">
+                </form>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
